@@ -697,6 +697,11 @@ a {
 }
 
 
+.project-card.wide {
+    grid-column: span 2;
+}
+
+
 .project-top {
     display: flex;
     justify-content: space-between;
@@ -1217,7 +1222,8 @@ footer {
     }
 
 
-    .project-card.featured {
+    .project-card.featured,
+    .project-card.wide {
         grid-column: auto;
     }
 
